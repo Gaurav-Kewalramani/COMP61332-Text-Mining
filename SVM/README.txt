@@ -1,6 +1,5 @@
 The model is already downloaded and named as svm_model2.joblib along with vectorizer and encoder named as tfidf_vectorizer2.joblib and label_encoder2.joblib respectively
 
-Model Link: https://livemanchesterac-my.sharepoint.com/:u:/g/personal/mohammedismaelabidali_shaikh_postgrad_manchester_ac_uk/EaMnQ95XHppAv-ZbUYKlxQkBB6qJ8JZ2VW2m-5f9r5Gayg?e=iq2e5e
 
 To use the model, simply drag and drop it on colab and copy past the following code : 
 
@@ -50,6 +49,7 @@ predicted_relation = predict_relation(example_sentence)
 # Display the result
 print(f"Sentence: {example_sentence}")
 print(f"Predicted Relation: {predicted_relation}")
+
 
 
 The main code File is named as SVM_main where the main code for the SVM model is.
