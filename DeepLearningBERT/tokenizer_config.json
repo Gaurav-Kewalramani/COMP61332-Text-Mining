@@ -1,0 +1,636 @@
+{
+  "added_tokens_decoder": {
+    "0": {
+      "content": "[PAD]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "100": {
+      "content": "[UNK]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "101": {
+      "content": "[CLS]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "102": {
+      "content": "[SEP]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "103": {
+      "content": "[MASK]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "28996": {
+      "content": "[S:CAUSE_OF_DEATH]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "28997": {
+      "content": "[/S:CAUSE_OF_DEATH]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "28998": {
+      "content": "[O:CAUSE_OF_DEATH]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "28999": {
+      "content": "[/O:CAUSE_OF_DEATH]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29000": {
+      "content": "[S:CITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29001": {
+      "content": "[/S:CITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29002": {
+      "content": "[O:CITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29003": {
+      "content": "[/O:CITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29004": {
+      "content": "[S:COUNTRY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29005": {
+      "content": "[/S:COUNTRY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29006": {
+      "content": "[O:COUNTRY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29007": {
+      "content": "[/O:COUNTRY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29008": {
+      "content": "[S:CRIMINAL_CHARGE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29009": {
+      "content": "[/S:CRIMINAL_CHARGE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29010": {
+      "content": "[O:CRIMINAL_CHARGE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29011": {
+      "content": "[/O:CRIMINAL_CHARGE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29012": {
+      "content": "[S:DATE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29013": {
+      "content": "[/S:DATE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29014": {
+      "content": "[O:DATE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29015": {
+      "content": "[/O:DATE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29016": {
+      "content": "[S:DURATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29017": {
+      "content": "[/S:DURATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29018": {
+      "content": "[O:DURATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29019": {
+      "content": "[/O:DURATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29020": {
+      "content": "[S:IDEOLOGY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29021": {
+      "content": "[/S:IDEOLOGY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29022": {
+      "content": "[O:IDEOLOGY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29023": {
+      "content": "[/O:IDEOLOGY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29024": {
+      "content": "[S:LOCATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29025": {
+      "content": "[/S:LOCATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29026": {
+      "content": "[O:LOCATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29027": {
+      "content": "[/O:LOCATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29028": {
+      "content": "[S:NATIONALITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29029": {
+      "content": "[/S:NATIONALITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29030": {
+      "content": "[O:NATIONALITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29031": {
+      "content": "[/O:NATIONALITY]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29032": {
+      "content": "[S:NUMBER]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29033": {
+      "content": "[/S:NUMBER]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29034": {
+      "content": "[O:NUMBER]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29035": {
+      "content": "[/O:NUMBER]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29036": {
+      "content": "[S:ORGANIZATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29037": {
+      "content": "[/S:ORGANIZATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29038": {
+      "content": "[O:ORGANIZATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29039": {
+      "content": "[/O:ORGANIZATION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29040": {
+      "content": "[S:PERSON]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29041": {
+      "content": "[/S:PERSON]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29042": {
+      "content": "[O:PERSON]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29043": {
+      "content": "[/O:PERSON]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29044": {
+      "content": "[S:RELIGION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29045": {
+      "content": "[/S:RELIGION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29046": {
+      "content": "[O:RELIGION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29047": {
+      "content": "[/O:RELIGION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29048": {
+      "content": "[S:STATE_OR_PROVINCE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29049": {
+      "content": "[/S:STATE_OR_PROVINCE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29050": {
+      "content": "[O:STATE_OR_PROVINCE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29051": {
+      "content": "[/O:STATE_OR_PROVINCE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29052": {
+      "content": "[S:TITLE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29053": {
+      "content": "[/S:TITLE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29054": {
+      "content": "[O:TITLE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29055": {
+      "content": "[/O:TITLE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29056": {
+      "content": "[S:URL]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29057": {
+      "content": "[/S:URL]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29058": {
+      "content": "[O:URL]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "29059": {
+      "content": "[/O:URL]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
+    "[S:CAUSE_OF_DEATH]",
+    "[/S:CAUSE_OF_DEATH]",
+    "[O:CAUSE_OF_DEATH]",
+    "[/O:CAUSE_OF_DEATH]",
+    "[S:CITY]",
+    "[/S:CITY]",
+    "[O:CITY]",
+    "[/O:CITY]",
+    "[S:COUNTRY]",
+    "[/S:COUNTRY]",
+    "[O:COUNTRY]",
+    "[/O:COUNTRY]",
+    "[S:CRIMINAL_CHARGE]",
+    "[/S:CRIMINAL_CHARGE]",
+    "[O:CRIMINAL_CHARGE]",
+    "[/O:CRIMINAL_CHARGE]",
+    "[S:DATE]",
+    "[/S:DATE]",
+    "[O:DATE]",
+    "[/O:DATE]",
+    "[S:DURATION]",
+    "[/S:DURATION]",
+    "[O:DURATION]",
+    "[/O:DURATION]",
+    "[S:IDEOLOGY]",
+    "[/S:IDEOLOGY]",
+    "[O:IDEOLOGY]",
+    "[/O:IDEOLOGY]",
+    "[S:LOCATION]",
+    "[/S:LOCATION]",
+    "[O:LOCATION]",
+    "[/O:LOCATION]",
+    "[S:NATIONALITY]",
+    "[/S:NATIONALITY]",
+    "[O:NATIONALITY]",
+    "[/O:NATIONALITY]",
+    "[S:NUMBER]",
+    "[/S:NUMBER]",
+    "[O:NUMBER]",
+    "[/O:NUMBER]",
+    "[S:ORGANIZATION]",
+    "[/S:ORGANIZATION]",
+    "[O:ORGANIZATION]",
+    "[/O:ORGANIZATION]",
+    "[S:PERSON]",
+    "[/S:PERSON]",
+    "[O:PERSON]",
+    "[/O:PERSON]",
+    "[S:RELIGION]",
+    "[/S:RELIGION]",
+    "[O:RELIGION]",
+    "[/O:RELIGION]",
+    "[S:STATE_OR_PROVINCE]",
+    "[/S:STATE_OR_PROVINCE]",
+    "[O:STATE_OR_PROVINCE]",
+    "[/O:STATE_OR_PROVINCE]",
+    "[S:TITLE]",
+    "[/S:TITLE]",
+    "[O:TITLE]",
+    "[/O:TITLE]",
+    "[S:URL]",
+    "[/S:URL]",
+    "[O:URL]",
+    "[/O:URL]"
+  ],
+  "clean_up_tokenization_spaces": true,
+  "cls_token": "[CLS]",
+  "do_basic_tokenize": true,
+  "do_lower_case": false,
+  "extra_special_tokens": {},
+  "mask_token": "[MASK]",
+  "model_max_length": 512,
+  "never_split": null,
+  "pad_token": "[PAD]",
+  "sep_token": "[SEP]",
+  "strip_accents": null,
+  "tokenize_chinese_chars": true,
+  "tokenizer_class": "BertTokenizer",
+  "unk_token": "[UNK]"
+}
