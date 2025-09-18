@@ -1,14 +1,5 @@
 # BERT Relation Extraction Model
 
-This model performs relation extraction on sentences containing marked entities.
-
-## Model Links
-
-https://livemanchesterac-my.sharepoint.com/:u:/g/personal/mohammedismaelabidali_shaikh_postgrad_manchester_ac_uk/Ed9iif_1365BnCf5AuUMO8kBkQWxpfj3eq4UtUTOH0gY1g?e=M0rCah
-
-Larger Model:
-https://livemanchesterac-my.sharepoint.com/:u:/g/personal/mohammedismaelabidali_shaikh_postgrad_manchester_ac_uk/Ef0orOcEUOpAj_L3083MpycB6ksex5_81KFv0CuYWie24g?e=exlsCW
-
 ## Model Details
 
 - Architecture: BERT with entity-aware attention mechanism
